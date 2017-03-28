@@ -1,0 +1,11 @@
+// Environment variables
+
+.env
+
+// NodeJS modules
+
+node_modules/
+
+// Visual Studio Code Stuff
+
+.vscode/
