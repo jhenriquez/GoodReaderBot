@@ -5,6 +5,7 @@ const BookSearch               = require('./lib/goodreads/bookSearch');
 const InlineQueryResultArticle = require('./model/inlineQueryResultArticle');
 const Telegraf                 = require('telegraf');
 const bot                      = new Telegraf(process.env.TELEGRAM_BOT_TOKEN);
+const URL                      = process.env.URL || 'https://goodreaderbot.herokuapp.com';
 
 bot.on('inline_query', (ctx) => {
 
@@ -18,7 +19,7 @@ bot.on('inline_query', (ctx) => {
                                                  .catch(console.log.bind(console));
 });
 
-bot.telegram.setWebhook(`${process.env.URL}/${process.env.TELEGRAM_BOT_TOKEN}`);
+bot.telegram.setWebhook(`${URL}/${process.env.TELEGRAM_BOT_TOKEN}`);
 
 bot.catch(console.log.bind(console));
 
