@@ -26,6 +26,7 @@ describe('Model/InlineQueryResultArticle', () => {
       let inlineQueryResultArticle = new InlineQueryResultArticle(goodreadsBook);
       inlineQueryResultArticle.should.have.a.property('id', goodreadsBook.id);
       inlineQueryResultArticle.should.have.a.property('title', goodreadsBook.title);
+      inlineQueryResultArticle.should.have.a.property('description', goodreadsBook.author.name);
       inlineQueryResultArticle.should.have.a.property('thumb_url', goodreadsBook.small_image_url);
       inlineQueryResultArticle.should.have.a.property('input_message_content');
       inlineQueryResultArticle.should.have.a.property('type', 'article');

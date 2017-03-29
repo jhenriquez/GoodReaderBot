@@ -21,8 +21,8 @@ bot.on('inline_query', (ctx) => {
 
 bot.telegram.setWebhook(`${URL}/${process.env.TELEGRAM_BOT_TOKEN}`);
 
-bot.catch(console.log.bind(console));
-
 bot.startWebhook(`/${process.env.TELEGRAM_BOT_TOKEN}`,null, process.env.PORT);
+
+bot.catch(console.log.bind(console));
 
 console.log('Goodreader bot has Started!');
