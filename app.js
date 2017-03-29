@@ -18,6 +18,8 @@ bot.on('inline_query', (ctx) => {
                                                  .catch(console.log.bind(console));
 });
 
-bot
+bot.catch(console.log.bind(console));
 
 bot.startPolling();
+
+console.log('Telegraf Polling Started!');
