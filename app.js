@@ -18,8 +18,10 @@ bot.on('inline_query', (ctx) => {
                                                  .catch(console.log.bind(console));
 });
 
+bot.telegram.setWebhook(`${process.env.URL}/${process.env.TELEGRAM_BOT_TOKEN}`);
+
 bot.catch(console.log.bind(console));
 
-bot.startPolling();
+bot.startWebhook(`/${process.env.TELEGRAM_BOT_TOKEN}`,null, process.env.PORT);
 
-console.log('Telegraf Polling Started!');
+console.log('Goodreader bot has Started!');
