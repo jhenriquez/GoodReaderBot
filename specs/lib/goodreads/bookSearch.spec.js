@@ -1,6 +1,7 @@
-const chai = require('chai');
-const nock = require('nock');
-const BookSearch = require('../../lib/goodreads/bookSearch');
+const chai                   = require('chai');
+const nock                   = require('nock');
+const BookSearch             = require('../../../lib/goodreads/bookSearch');
+const GoodreadsBookValidator = require('../../../model/goodreadsBookValidator');
 
 
 function mockNerudaSearch () {
@@ -32,17 +33,10 @@ describe('Goodreads/BookSearch', () => {
       return new BookSearch(process.env.GOODREADS_API_KEY).execute('neruda').then(books => books.should.have.length(20));
     });
 
-    it('Book objects conform to the following structure: { id, title, author, image_url, small_image_url }', () => {
+    it('Book objects conform to the following structure: { id, title, author: { name }, image_url, small_image_url }', () => {
       mockNerudaSearch();
       return new BookSearch(process.env.GOODREADS_API_KEY).execute('neruda').then(books => {
-        books.forEach((b) => {
-          b.should.have.property('id');
-          b.should.have.property('title');
-          b.should.have.property('author');
-          b.author.should.have.property('name');
-          b.should.have.property('image_url');
-          b.should.have.property('small_image_url');
-        });
+        books.forEach((b) => chai.expect(GoodreadsBookValidator.validate(b).error).to.be.null);
       });
     });
   });

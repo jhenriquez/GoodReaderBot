@@ -9,3 +9,7 @@ node_modules/
 // Visual Studio Code Stuff
 
 .vscode/
+
+// Istanbul Coverage Reports
+
+coverage/
