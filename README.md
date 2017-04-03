@@ -5,13 +5,17 @@
 
 A telegram bot to search and share books from [GoodReads](https://www.goodreads.com). GoodReader is an [inline mode](https://core.telegram.org/bots/inline) bot.
 
+### Usage
+
+To search and share books one only needs to reference the bot from any conversation (individual or group) on telegram by typing `@goodreaderbot <query>`.
+
 ### Current Status
 
 At the present the bot resolves book searchs using the [Goodreads Search Books API](https://www.goodreads.com/api/index#search.books) and renders
 it results using [InlineQueryResultArticle](https://core.telegram.org/bots/api#inlinequeryresultarticle) objects.
 
-When an item is selected the message sent to the room is Goodreads book show URL. This might suffice for the moment since telegram crawls it for
-richer content.
+When an item is selected a HTML based [text message](https://core.telegram.org/bots/api#html-style) is rendered in the room. This message contains
+the title of the book, the author, links to both the author and book profiles on Goodreads and the book's cover if available.
 
 ## Contributions
 
