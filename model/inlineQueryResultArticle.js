@@ -3,9 +3,11 @@ const InlineKeyboardMarkup   = require('./inlineKeyboardMarkup');
 
 /*
  * A constructor to model a Telegram InlineQueryResultArticle built from a Goodreads complaint book.
- */
+ *
+ * @param { object } - A goodreads structure compliant book.
+  */
 function InlineQueryResultArticle (book) {
-  let validated = GoodreadsBookValidator.validate(book);
+  const validated = GoodreadsBookValidator.validate(book);
 
   if (validated.error) {
     throw validated.error;

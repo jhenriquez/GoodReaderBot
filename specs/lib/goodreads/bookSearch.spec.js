@@ -12,7 +12,7 @@ function mockNerudaSearch () {
 }
 
 describe('Goodreads/BookSearch', () => {
-  describe('#()', function () {
+  describe('#()', () => {
     it('Expects a Goodreads API key string. Throws Error when not provided.', () => {
       chai.expect(() => { return new BookSearch(); }).to.throw(Error, /key/i);
     });
