@@ -24,12 +24,3 @@ before(function () {
 const chai = require('chai');
 
 before(chai.should);
-
-/*
- * Setup nock recording (temporary)
- */
-
-// before(() => {
-//   const nock = require('nock');
-//   nock.recorder.rec();
-// });
