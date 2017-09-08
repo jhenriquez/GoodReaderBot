@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+    <key>
+      <![CDATA[${process.env.GOODREADS_API_KEY}]]>
+    </key>
+    <method>
+      <![CDATA[book_show]]>
+    </method>
+  </Request>
+  <book>
+    <id>50</id>
+    <title>Hatchet (Brian&apos;s Saga, #1)</title>
+    <isbn>
+      <![CDATA[0689840926]]>
+    </isbn>
+    <isbn13>
+      <![CDATA[9780689840920]]>
+    </isbn13>
+    <asin>
+      <![CDATA[]]>
+    </asin>
+    <kindle_asin>
+      <![CDATA[]]>
+    </kindle_asin>
+    <marketplace_id>
+      <![CDATA[]]>
+    </marketplace_id>
+    <country_code>
+      <![CDATA[DO]]>
+    </country_code>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+    <publication_year></publication_year>
+    <publication_month></publication_month>
+    <publication_day></publication_day>
+    <publisher>Atheneum Books for Young Readers: Richard Jackson Books</publisher>
+    <language_code>en-US</language_code>
+    <is_ebook>false</is_ebook>
+    <description>
+      <![CDATA[Brian is on his way to Canada to visit his estranged father when the pilot of his small prop plane suffers a heart attack. Brian is forced to crash-land the plane in a lake--and finds himself stranded in the remote Canadian wilderness with only his clothing and the hatchet his mother gave him as a present before his departure. <br /><br />Brian had been distraught over his parents' impending divorce and the secret he carries about his mother, but now he is truly desolate and alone. Exhausted, terrified, and hungry, Brian struggles to find food and make a shelter for himself. He has no special knowledge of the woods, and he must find a new kind of awareness and patience as he meets each day's challenges. Is the water safe to drink? Are the berries he finds poisonous? <br /><br />Slowly, Brian learns to turn adversity to his advantage--an invading porcupine unexpectedly shows him how to make fire, a devastating tornado shows him how to retrieve supplies from the submerged airplane. Most of all, Brian leaves behind the self-pity he has felt about his predicament as he summons the courage to stay alive. <br /><br />A story of survival and of transformation, this riveting book has sparked many a reader's interest in venturing into the wild.]]>
+    </description>
+    <work>
+      <id type="integer">1158125</id>
+      <books_count type="integer">90</books_count>
+      <best_book_id type="integer">50</best_book_id>
+      <reviews_count type="integer">286952</reviews_count>
+      <ratings_sum type="integer">831913</ratings_sum>
+      <ratings_count type="integer">226408</ratings_count>
+      <text_reviews_count type="integer">10150</text_reviews_count>
+      <original_publication_year type="integer">1986</original_publication_year>
+      <original_publication_month type="integer">11</original_publication_month>
+      <original_publication_day type="integer">1</original_publication_day>
+      <original_title>Hatchet</original_title>
+      <original_language_id type="integer" nil="true"/>
+      <media_type>book</media_type>
+      <rating_dist>5:63418|4:71435|3:57808|2:21912|1:11835|total:226408</rating_dist>
+      <desc_user_id type="integer">5843106</desc_user_id>
+      <default_chaptering_book_id type="integer" nil="true"/>
+      <default_description_language_code nil="true"/>
+    </work>
+    <average_rating>3.67</average_rating>
+    <num_pages>
+      <![CDATA[]]>
+    </num_pages>
+    <format>
+      <![CDATA[]]>
+    </format>
+    <edition_information>
+      <![CDATA[]]>
+    </edition_information>
+    <ratings_count>
+      <![CDATA[217368]]>
+    </ratings_count>
+    <text_reviews_count>
+      <![CDATA[9107]]>
+    </text_reviews_count>
+    <url>
+      <![CDATA[https://www.goodreads.com/book/show/50.Hatchet]]>
+    </url>
+    <link>
+      <![CDATA[https://www.goodreads.com/book/show/50.Hatchet]]>
+    </link>
+    <authors>
+      <author>
+        <id>18</id>
+        <name>Gary Paulsen</name>
+        <role></role>
+        <image_url nophoto='false'>
+          <![CDATA[https://images.gr-assets.com/authors/1309159225p5/18.jpg]]>
+        </image_url>
+        <small_image_url nophoto='false'>
+          <![CDATA[https://images.gr-assets.com/authors/1309159225p2/18.jpg]]>
+        </small_image_url>
+        <link>
+          <![CDATA[https://www.goodreads.com/author/show/18.Gary_Paulsen]]>
+        </link>
+        <average_rating>3.75</average_rating>
+        <ratings_count>360551</ratings_count>
+        <text_reviews_count>24955</text_reviews_count>
+      </author>
+    </authors>
+    <reviews_widget>
+      <![CDATA[        <style>  #goodreads-widget {    font-family: georgia, serif;    padding: 18px 0;    width:565px;  }  #goodreads-widget h1 {    font-weight:normal;    font-size: 16px;    border-bottom: 1px solid #BBB596;    margin-bottom: 0;  }  #goodreads-widget a {    text-decoration: none;    color:#660;  }  iframe{    background-color: #fff;  }  #goodreads-widget a:hover { text-decoration: underline; }  #goodreads-widget a:active {    color:#660;  }  #gr_footer {    width: 100%;    border-top: 1px solid #BBB596;    text-align: right;  }  #goodreads-widget .gr_branding{    color: #382110;    font-size: 11px;    text-decoration: none;    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  }</style><div id="goodreads-widget">  <div id="gr_header"><h1><a href="https://www.goodreads.com/book/show/50.Hatchet">Hatchet Reviews</a></h1></div>  <iframe id="the_iframe" src="https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=0689840926&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000" width="565" height="400" frameborder="0"></iframe>  <div id="gr_footer">    <a class="gr_branding" target="_blank" href="https://www.goodreads.com/book/show/50.Hatchet?utm_medium=api&amp;utm_source=reviews_widget">Reviews from Goodreads.com</a>  </div></div>      ]]>
+    </reviews_widget>
+    <popular_shelves>
+      <shelf name="to-read" count="30393"/>
+      <shelf name="young-adult" count="2081"/>
+      <shelf name="currently-reading" count="2029"/>
+      <shelf name="fiction" count="1539"/>
+      <shelf name="adventure" count="908"/>
+      <shelf name="favorites" count="862"/>
+      <shelf name="classics" count="699"/>
+      <shelf name="ya" count="666"/>
+      <shelf name="survival" count="631"/>
+      <shelf name="childrens" count="600"/>
+      <shelf name="realistic-fiction" count="511"/>
+      <shelf name="school" count="464"/>
+      <shelf name="childhood" count="446"/>
+      <shelf name="children" count="355"/>
+      <shelf name="middle-grade" count="314"/>
+      <shelf name="children-s" count="313"/>
+      <shelf name="children-s-books" count="279"/>
+      <shelf name="books-i-own" count="271"/>
+      <shelf name="kids" count="268"/>
+      <shelf name="read-for-school" count="246"/>
+      <shelf name="owned" count="222"/>
+      <shelf name="series" count="201"/>
+      <shelf name="newbery" count="179"/>
+      <shelf name="childhood-favorites" count="178"/>
+      <shelf name="classic" count="164"/>
+      <shelf name="for-school" count="160"/>
+      <shelf name="school-books" count="157"/>
+      <shelf name="juvenile" count="151"/>
+      <shelf name="childrens-books" count="150"/>
+      <shelf name="middle-school" count="141"/>
+      <shelf name="teen" count="140"/>
+      <shelf name="kids-books" count="137"/>
+      <shelf name="childhood-books" count="134"/>
+      <shelf name="coming-of-age" count="128"/>
+      <shelf name="hatchet" count="127"/>
+      <shelf name="youth" count="122"/>
+      <shelf name="children-s-lit" count="108"/>
+      <shelf name="novels" count="108"/>
+      <shelf name="children-s-literature" count="107"/>
+      <shelf name="ya-fiction" count="101"/>
+      <shelf name="read-in-school" count="98"/>
+      <shelf name="action-adventure" count="97"/>
+      <shelf name="juvenile-fiction" count="97"/>
+      <shelf name="newbery-honor" count="96"/>
+      <shelf name="owned-books" count="90"/>
+      <shelf name="ya-lit" count="84"/>
+      <shelf name="wilderness" count="84"/>
+      <shelf name="childhood-reads" count="83"/>
+      <shelf name="gary-paulsen" count="83"/>
+      <shelf name="canada" count="81"/>
+      <shelf name="chapter-books" count="80"/>
+      <shelf name="library" count="80"/>
+      <shelf name="audiobook" count="80"/>
+      <shelf name="young-adult-fiction" count="77"/>
+      <shelf name="contemporary" count="75"/>
+      <shelf name="read-as-a-kid" count="73"/>
+      <shelf name="audio" count="72"/>
+      <shelf name="childrens-lit" count="67"/>
+      <shelf name="realistic" count="64"/>
+      <shelf name="school-reads" count="62"/>
+      <shelf name="default" count="62"/>
+      <shelf name="classroom-library" count="61"/>
+      <shelf name="general-fiction" count="57"/>
+      <shelf name="nature" count="56"/>
+      <shelf name="contemporary-realistic-fiction" count="56"/>
+      <shelf name="books" count="56"/>
+      <shelf name="re-read" count="54"/>
+      <shelf name="my-books" count="54"/>
+      <shelf name="newberry" count="52"/>
+      <shelf name="novel" count="47"/>
+      <shelf name="5th-grade" count="47"/>
+      <shelf name="6th-grade" count="46"/>
+      <shelf name="my-childhood" count="45"/>
+      <shelf name="ya-books" count="45"/>
+      <shelf name="audiobooks" count="45"/>
+      <shelf name="elementary-school" count="44"/>
+      <shelf name="action" count="43"/>
+      <shelf name="to-re-read" count="42"/>
+      <shelf name="award-winners" count="42"/>
+      <shelf name="children-s-fiction" count="42"/>
+      <shelf name="childrens-fiction" count="41"/>
+      <shelf name="required-reading" count="41"/>
+      <shelf name="shelfari-favorites" count="40"/>
+      <shelf name="kid-books" count="40"/>
+      <shelf name="childrens-literature" count="40"/>
+      <shelf name="school-reading" count="40"/>
+      <shelf name="kid-lit" count="40"/>
+      <shelf name="elementary" count="39"/>
+      <shelf name="borrowed" count="39"/>
+      <shelf name="to-buy" count="38"/>
+      <shelf name="my-library" count="38"/>
+      <shelf name="i-own" count="38"/>
+      <shelf name="divorce" count="38"/>
+      <shelf name="read-aloud" count="38"/>
+      <shelf name="animals" count="37"/>
+      <shelf name="middle-grades" count="37"/>
+      <shelf name="boys" count="37"/>
+      <shelf name="young-adult-books" count="37"/>
+      <shelf name="contemporary-fiction" count="36"/>
+      <shelf name="tween" count="36"/>
+    </popular_shelves>
+    <book_links>
+      <book_link>
+        <id>8</id>
+        <name>Libraries</name>
+        <link>https://www.goodreads.com/book_link/follow/8</link>
+      </book_link>
+    </book_links>
+    <buy_links>
+      <buy_link>
+        <id>1</id>
+        <name>Amazon</name>
+        <link>https://www.goodreads.com/book_link/follow/1</link>
+      </buy_link>
+      <buy_link>
+        <id>10</id>
+        <name>Audible</name>
+        <link>https://www.goodreads.com/book_link/follow/10</link>
+      </buy_link>
+      <buy_link>
+        <id>3</id>
+        <name>Barnes &amp; Noble</name>
+        <link>https://www.goodreads.com/book_link/follow/3</link>
+      </buy_link>
+      <buy_link>
+        <id>1027</id>
+        <name>Kobo</name>
+        <link>https://www.goodreads.com/book_link/follow/1027</link>
+      </buy_link>
+      <buy_link>
+        <id>2102</id>
+        <name>Apple iBooks</name>
+        <link>https://www.goodreads.com/book_link/follow/2102</link>
+      </buy_link>
+      <buy_link>
+        <id>8036</id>
+        <name>Google Play</name>
+        <link>https://www.goodreads.com/book_link/follow/8036</link>
+      </buy_link>
+      <buy_link>
+        <id>4</id>
+        <name>Abebooks</name>
+        <link>https://www.goodreads.com/book_link/follow/4</link>
+      </buy_link>
+      <buy_link>
+        <id>882</id>
+        <name>Book Depository</name>
+        <link>https://www.goodreads.com/book_link/follow/882</link>
+      </buy_link>
+      <buy_link>
+        <id>9</id>
+        <name>Indigo</name>
+        <link>https://www.goodreads.com/book_link/follow/9</link>
+      </buy_link>
+      <buy_link>
+        <id>2</id>
+        <name>Half.com</name>
+        <link>https://www.goodreads.com/book_link/follow/2</link>
+      </buy_link>
+      <buy_link>
+        <id>5</id>
+        <name>Alibris</name>
+        <link>https://www.goodreads.com/book_link/follow/5</link>
+      </buy_link>
+      <buy_link>
+        <id>107</id>
+        <name>Better World Books</name>
+        <link>https://www.goodreads.com/book_link/follow/107</link>
+      </buy_link>
+      <buy_link>
+        <id>7</id>
+        <name>IndieBound</name>
+        <link>https://www.goodreads.com/book_link/follow/7</link>
+      </buy_link>
+    </buy_links>
+    <series_works>
+      <series_work>
+        <id>268218</id>
+        <user_position>1</user_position>
+        <series>
+          <id>62223</id>
+          <title>
+            <![CDATA[    Brian's Saga]]>
+          </title>
+          <description>
+            <![CDATA[]]>
+          </description>
+          <note>
+            <![CDATA[]]>
+          </note>
+          <series_works_count>8</series_works_count>
+          <primary_work_count>5</primary_work_count>
+          <numbered>true</numbered>
+        </series>
+      </series_work>
+    </series_works>
+    <similar_books>
+      <book>
+        <id>41667</id>
+        <title>
+          <![CDATA[My Side of the Mountain (Mountain, #1)]]>
+        </title>
+        <title_without_series>My Side of the Mountain</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/41667.My_Side_of_the_Mountain]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]>
+        </image_url>
+        <num_pages>192</num_pages>
+        <work>
+          <id>2682098</id>
+        </work>
+        <isbn>0142401110</isbn>
+        <isbn13>9780142401118</isbn13>
+        <average_rating>4.03</average_rating>
+        <ratings_count>49600</ratings_count>
+        <publication_year>2004</publication_year>
+        <publication_month>4</publication_month>
+        <publication_day>12</publication_day>
+        <authors>
+          <author>
+            <id>23509</id>
+            <name>Jean Craighead George</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/23509.Jean_Craighead_George]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>438131</id>
+        <title>Incident at Hawk&apos;s Hill</title>
+        <title_without_series>Incident at Hawk&apos;s Hill</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/438131.Incident_at_Hawk_s_Hill]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]>
+        </image_url>
+        <num_pages>224</num_pages>
+        <work>
+          <id>1416354</id>
+        </work>
+        <isbn>0316209481</isbn>
+        <isbn13>9780316209489</isbn13>
+        <average_rating>3.98</average_rating>
+        <ratings_count>2076</ratings_count>
+        <publication_year>1995</publication_year>
+        <publication_month>4</publication_month>
+        <publication_day>1</publication_day>
+        <authors>
+          <author>
+            <id>59419</id>
+            <name>Allan W. Eckert</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/59419.Allan_W_Eckert]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>124245</id>
+        <title>The Black Pearl</title>
+        <title_without_series>The Black Pearl</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/124245.The_Black_Pearl]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]>
+        </image_url>
+        <num_pages>112</num_pages>
+        <work>
+          <id>811487</id>
+        </work>
+        <isbn>0440228867</isbn>
+        <isbn13>9780440228868</isbn13>
+        <average_rating>3.46</average_rating>
+        <ratings_count>4729</ratings_count>
+        <publication_year>1999</publication_year>
+        <publication_month>5</publication_month>
+        <publication_day>11</publication_day>
+        <authors>
+          <author>
+            <id>4999</id>
+            <name>Scott O&apos;Dell</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/4999.Scott_O_Dell]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>13164526</id>
+        <title>The Sign of the Beaver</title>
+        <title_without_series>The Sign of the Beaver</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/13164526-the-sign-of-the-beaver]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://images.gr-assets.com/books/1355145685s/13164526.jpg]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://images.gr-assets.com/books/1355145685m/13164526.jpg]]>
+        </image_url>
+        <num_pages></num_pages>
+        <work>
+          <id>1282066</id>
+        </work>
+        <isbn></isbn>
+        <isbn13></isbn13>
+        <average_rating>3.76</average_rating>
+        <ratings_count>25034</ratings_count>
+        <publication_year></publication_year>
+        <publication_month></publication_month>
+        <publication_day></publication_day>
+        <authors>
+          <author>
+            <id>7549</id>
+            <name>Elizabeth George Speare</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/7549.Elizabeth_George_Speare]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>597489</id>
+        <title>The Witches of Worm</title>
+        <title_without_series>The Witches of Worm</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/597489.The_Witches_of_Worm]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]>
+        </image_url>
+        <num_pages>183</num_pages>
+        <work>
+          <id>3007159</id>
+        </work>
+        <isbn>0440497272</isbn>
+        <isbn13>9780440497271</isbn13>
+        <average_rating>3.68</average_rating>
+        <ratings_count>1849</ratings_count>
+        <publication_year>1986</publication_year>
+        <publication_month>2</publication_month>
+        <publication_day>1</publication_day>
+        <authors>
+          <author>
+            <id>27</id>
+            <name>Zilpha Keatley Snyder</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/27.Zilpha_Keatley_Snyder]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>10372</id>
+        <title>Summer of the Monkeys</title>
+        <title_without_series>Summer of the Monkeys</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/10372.Summer_of_the_Monkeys]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]>
+        </image_url>
+        <num_pages>288</num_pages>
+        <work>
+          <id>446566</id>
+        </work>
+        <isbn>0440415802</isbn>
+        <isbn13>9780440415800</isbn13>
+        <average_rating>4.00</average_rating>
+        <ratings_count>10179</ratings_count>
+        <publication_year>1998</publication_year>
+        <publication_month>12</publication_month>
+        <publication_day>29</publication_day>
+        <authors>
+          <author>
+            <id>6810</id>
+            <name>Wilson Rawls</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/6810.Wilson_Rawls]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>1661506</id>
+        <title>Journey Outside</title>
+        <title_without_series>Journey Outside</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/1661506.Journey_Outside]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]>
+        </image_url>
+        <num_pages>128</num_pages>
+        <work>
+          <id>1656307</id>
+        </work>
+        <isbn>0140305882</isbn>
+        <isbn13>9780140305883</isbn13>
+        <average_rating>3.53</average_rating>
+        <ratings_count>192</ratings_count>
+        <publication_year>1979</publication_year>
+        <publication_month>7</publication_month>
+        <publication_day>26</publication_day>
+        <authors>
+          <author>
+            <id>236137</id>
+            <name>Mary Q. Steele</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/236137.Mary_Q_Steele]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>24049</id>
+        <title>Survival (Island, #2)</title>
+        <title_without_series>Survival</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/24049.Survival]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://images.gr-assets.com/books/1360057554s/24049.jpg]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://images.gr-assets.com/books/1360057554m/24049.jpg]]>
+        </image_url>
+        <num_pages>138</num_pages>
+        <work>
+          <id>1282439</id>
+        </work>
+        <isbn>0439164575</isbn>
+        <isbn13>9780439164573</isbn13>
+        <average_rating>3.86</average_rating>
+        <ratings_count>3151</ratings_count>
+        <publication_year>2001</publication_year>
+        <publication_month>7</publication_month>
+        <publication_day>1</publication_day>
+        <authors>
+          <author>
+            <id>2130</id>
+            <name>Gordon Korman</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/2130.Gordon_Korman]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>186457</id>
+        <title>
+          <![CDATA[The Fledgling (Hall Family Chronicles #4)]]>
+        </title>
+        <title_without_series>The Fledgling</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/186457.The_Fledgling]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://images.gr-assets.com/books/1327215220s/186457.jpg]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://images.gr-assets.com/books/1327215220m/186457.jpg]]>
+        </image_url>
+        <num_pages>182</num_pages>
+        <work>
+          <id>1074142</id>
+        </work>
+        <isbn>0590434519</isbn>
+        <isbn13>9780590434515</isbn13>
+        <average_rating>3.76</average_rating>
+        <ratings_count>1856</ratings_count>
+        <publication_year>1981</publication_year>
+        <publication_month></publication_month>
+        <publication_day></publication_day>
+        <authors>
+          <author>
+            <id>83378</id>
+            <name>Jane Langton</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/83378.Jane_Langton]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>857528</id>
+        <title>Call It Courage</title>
+        <title_without_series>Call It Courage</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/857528.Call_It_Courage]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://images.gr-assets.com/books/1344390570s/857528.jpg]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://images.gr-assets.com/books/1344390570m/857528.jpg]]>
+        </image_url>
+        <num_pages>128</num_pages>
+        <work>
+          <id>842981</id>
+        </work>
+        <isbn>0689713916</isbn>
+        <isbn13>9780689713910</isbn13>
+        <average_rating>3.71</average_rating>
+        <ratings_count>9556</ratings_count>
+        <publication_year>1990</publication_year>
+        <publication_month>4</publication_month>
+        <publication_day>30</publication_day>
+        <authors>
+          <author>
+            <id>37836</id>
+            <name>Armstrong Sperry</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/37836.Armstrong_Sperry]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>4414890</id>
+        <title>
+          <![CDATA[The Mostly True Adventures of Homer P. Figg]]>
+        </title>
+        <title_without_series>
+          <![CDATA[The Mostly True Adventures of Homer P. Figg]]>
+        </title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/4414890-the-mostly-true-adventures-of-homer-p-figg]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://images.gr-assets.com/books/1328842672s/4414890.jpg]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://images.gr-assets.com/books/1328842672m/4414890.jpg]]>
+        </image_url>
+        <num_pages>224</num_pages>
+        <work>
+          <id>4463054</id>
+        </work>
+        <isbn>0439668182</isbn>
+        <isbn13>9780439668187</isbn13>
+        <average_rating>3.67</average_rating>
+        <ratings_count>5924</ratings_count>
+        <publication_year>2009</publication_year>
+        <publication_month>1</publication_month>
+        <publication_day>1</publication_day>
+        <authors>
+          <author>
+            <id>5817</id>
+            <name>Rodman Philbrick</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/5817.Rodman_Philbrick]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>784726</id>
+        <title>Abel&apos;s Island</title>
+        <title_without_series>Abel&apos;s Island</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/784726.Abel_s_Island]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://images.gr-assets.com/books/1328218024s/784726.jpg]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://images.gr-assets.com/books/1328218024m/784726.jpg]]>
+        </image_url>
+        <num_pages>117</num_pages>
+        <work>
+          <id>266053</id>
+        </work>
+        <isbn>0753581906</isbn>
+        <isbn13></isbn13>
+        <average_rating>3.89</average_rating>
+        <ratings_count>3328</ratings_count>
+        <publication_year></publication_year>
+        <publication_month></publication_month>
+        <publication_day></publication_day>
+        <authors>
+          <author>
+            <id>26874</id>
+            <name>William Steig</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/26874.William_Steig]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>175089</id>
+        <title>Wild Man Island</title>
+        <title_without_series>Wild Man Island</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/175089.Wild_Man_Island]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]>
+        </image_url>
+        <num_pages>192</num_pages>
+        <work>
+          <id>2601776</id>
+        </work>
+        <isbn>0380733102</isbn>
+        <isbn13>9780380733101</isbn13>
+        <average_rating>3.71</average_rating>
+        <ratings_count>371</ratings_count>
+        <publication_year>2003</publication_year>
+        <publication_month>4</publication_month>
+        <publication_day>1</publication_day>
+        <authors>
+          <author>
+            <id>44589</id>
+            <name>Will Hobbs</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/44589.Will_Hobbs]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>278264</id>
+        <title>Wringer</title>
+        <title_without_series>Wringer</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/278264.Wringer]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]>
+        </image_url>
+        <num_pages>240</num_pages>
+        <work>
+          <id>269883</id>
+        </work>
+        <isbn>0060739487</isbn>
+        <isbn13>9780060739485</isbn13>
+        <average_rating>3.62</average_rating>
+        <ratings_count>11375</ratings_count>
+        <publication_year>2004</publication_year>
+        <publication_month>6</publication_month>
+        <publication_day>1</publication_day>
+        <authors>
+          <author>
+            <id>12696</id>
+            <name>Jerry Spinelli</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/12696.Jerry_Spinelli]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>548609</id>
+        <title>
+          <![CDATA[Surviving the Applewhites (Applewhites, #1)]]>
+        </title>
+        <title_without_series>Surviving the Applewhites</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/548609.Surviving_the_Applewhites]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]>
+        </image_url>
+        <num_pages>240</num_pages>
+        <work>
+          <id>1341211</id>
+        </work>
+        <isbn>0064410447</isbn>
+        <isbn13>9780064410441</isbn13>
+        <average_rating>3.64</average_rating>
+        <ratings_count>9730</ratings_count>
+        <publication_year>2003</publication_year>
+        <publication_month>12</publication_month>
+        <publication_day>23</publication_day>
+        <authors>
+          <author>
+            <id>28006</id>
+            <name>Stephanie S. Tolan</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/28006.Stephanie_S_Tolan]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>880225</id>
+        <title>Jip: His Story</title>
+        <title_without_series>Jip: His Story</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/880225.Jip]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://images.gr-assets.com/books/1309211501s/880225.jpg]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://images.gr-assets.com/books/1309211501m/880225.jpg]]>
+        </image_url>
+        <num_pages>192</num_pages>
+        <work>
+          <id>865519</id>
+        </work>
+        <isbn>014240411X</isbn>
+        <isbn13>9780142404119</isbn13>
+        <average_rating>3.63</average_rating>
+        <ratings_count>995</ratings_count>
+        <publication_year>2005</publication_year>
+        <publication_month>6</publication_month>
+        <publication_day>2</publication_day>
+        <authors>
+          <author>
+            <id>1949</id>
+            <name>Katherine Paterson</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/1949.Katherine_Paterson]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>233330</id>
+        <title>
+          <![CDATA[A Solitary Blue (Tillerman Cycle, #3)]]>
+        </title>
+        <title_without_series>A Solitary Blue</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/233330.A_Solitary_Blue]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]>
+        </image_url>
+        <num_pages>250</num_pages>
+        <work>
+          <id>3247916</id>
+        </work>
+        <isbn>0689863608</isbn>
+        <isbn13>9780689863608</isbn13>
+        <average_rating>3.95</average_rating>
+        <ratings_count>4808</ratings_count>
+        <publication_year>2003</publication_year>
+        <publication_month>7</publication_month>
+        <publication_day>1</publication_day>
+        <authors>
+          <author>
+            <id>7540</id>
+            <name>Cynthia Voigt</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/7540.Cynthia_Voigt]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>207153</id>
+        <title>Shiloh (Shiloh, #1)</title>
+        <title_without_series>Shiloh</title_without_series>
+        <link>
+          <![CDATA[https://www.goodreads.com/book/show/207153.Shiloh]]>
+        </link>
+        <small_image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png]]>
+        </small_image_url>
+        <image_url>
+          <![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]>
+        </image_url>
+        <num_pages>145</num_pages>
+        <work>
+          <id>1152585</id>
+        </work>
+        <isbn>0689862229</isbn>
+        <isbn13>9780689862229</isbn13>
+        <average_rating>3.90</average_rating>
+        <ratings_count>60807</ratings_count>
+        <publication_year>2003</publication_year>
+        <publication_month>5</publication_month>
+        <publication_day>1</publication_day>
+        <authors>
+          <author>
+            <id>13608</id>
+            <name>Phyllis Reynolds Naylor</name>
+            <link>
+              <![CDATA[https://www.goodreads.com/author/show/13608.Phyllis_Reynolds_Naylor]]>
+            </link>
+          </author>
+        </authors>
+      </book>
+    </similar_books>
+  </book>
+</GoodreadsResponse>

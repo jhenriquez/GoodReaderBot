@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+    <key>
+      <![CDATA[${process.env.GOODREADS_API_KEY}]]>
+    </key>
+    <method>
+      <![CDATA[book_show]]>
+    </method>
+  </Request>
+  <book>
+    <id>31868165</id>
+    <title>
+      <![CDATA[Captivate: The Science of Succeeding with People]]>
+    </title>
+    <isbn>
+      <![CDATA[0399564489]]>
+    </isbn>
+    <isbn13>
+      <![CDATA[9780399564482]]>
+    </isbn13>
+    <asin>
+      <![CDATA[]]>
+    </asin>
+    <kindle_asin>
+      <![CDATA[]]>
+    </kindle_asin>
+    <marketplace_id>
+      <![CDATA[]]>
+    </marketplace_id>
+    <country_code>
+      <![CDATA[DO]]>
+    </country_code>
+    <image_url>https://images.gr-assets.com/books/1489777793m/31868165.jpg</image_url>
+    <small_image_url>https://images.gr-assets.com/books/1489777793s/31868165.jpg</small_image_url>
+    <publication_year></publication_year>
+    <publication_month></publication_month>
+    <publication_day></publication_day>
+    <publisher></publisher>
+    <language_code></language_code>
+    <is_ebook>false</is_ebook>
+    <description>
+      <![CDATA[<b>Do you dread one-on-one conversations with your boss? Do you have traumatic memories of first dates where you ran out of things to say? Are you constantly finding yourself in awkward situations?</b><br /> You re not alone. Millions of people get nervous at the thought of interacting with people. They assume they didn t get the gene for carrying on sparkling conversations. Worst of all, they secretly wonder if they have anything to offer people. <br /> Here s the good news: people are much more predictable and less intimidating than we think. To have a captivating personality, all you need is to understand the science of people. It s no harder than repairing your iPhone screen with the guidance of a YouTube video, or whipping up a souffle with a recipe at your side. It's not mysterious, terrifying, or demanding. It's science. <br /> Vanessa Van Edwards is a recovering awkward person who started asking questions about the hidden psychological dynamics within our social interactions. After testing her research in a human behavior lab, she shared her findings in a series of groundbreaking online courses with over 77,000 people, teaching them to take control of social situations and replace anxiety with natural confidence. They're simple hacks with outsized effects. For example: <br /> Everyone's face has hidden tells that you can learn to read by stealing the CIA's method for decoding facial expressions. (Lifting the upper eyelids is a microexpression that betrays fear.) <br /> You should stand next to the bar instead of by the door at networking events. <br /> Being remembered as a great conversationalist is about creating a single "peak" memorable moment, not keeping the conversation going at length. <br /> You can tell if someone is neurotic by what they hang on the walls of their cubicle. <br /> By adopting Vanessa's shortcuts, formulas and behavior hacks, readers will gain the confidence to take charge of their interactions at work, at home, and in any social situation."]]>
+    </description>
+    <work>
+      <id type="integer">52538873</id>
+      <books_count type="integer">7</books_count>
+      <best_book_id type="integer">31868165</best_book_id>
+      <reviews_count type="integer">2548</reviews_count>
+      <ratings_sum type="integer">1848</ratings_sum>
+      <ratings_count type="integer">429</ratings_count>
+      <text_reviews_count type="integer">68</text_reviews_count>
+      <original_publication_year type="integer" nil="true"/>
+      <original_publication_month type="integer" nil="true"/>
+      <original_publication_day type="integer" nil="true"/>
+      <original_title></original_title>
+      <original_language_id type="integer" nil="true"/>
+      <media_type>book</media_type>
+      <rating_dist>5:224|4:127|3:64|2:14|1:0|total:429</rating_dist>
+      <desc_user_id type="integer">-51</desc_user_id>
+      <default_chaptering_book_id type="integer" nil="true"/>
+      <default_description_language_code nil="true"/>
+    </work>
+    <average_rating>4.31</average_rating>
+    <num_pages>
+      <![CDATA[]]>
+    </num_pages>
+    <format>
+      <![CDATA[]]>
+    </format>
+    <edition_information>
+      <![CDATA[]]>
+    </edition_information>
+    <ratings_count>
+      <![CDATA[358]]>
+    </ratings_count>
+    <text_reviews_count>
+      <![CDATA[60]]>
+    </text_reviews_count>
+    <url>
+      <![CDATA[https://www.goodreads.com/book/show/31868165-captivate]]>
+    </url>
+    <link>
+      <![CDATA[https://www.goodreads.com/book/show/31868165-captivate]]>
+    </link>
+    <authors>
+      <author>
+        <id>6947464</id>
+        <name>Vanessa Van Edwards</name>
+        <role></role>
+        <image_url nophoto='false'>
+          <![CDATA[https://images.gr-assets.com/authors/1467470633p5/6947464.jpg]]>
+        </image_url>
+        <small_image_url nophoto='false'>
+          <![CDATA[https://images.gr-assets.com/authors/1467470633p2/6947464.jpg]]>
+        </small_image_url>
+        <link>
+          <![CDATA[https://www.goodreads.com/author/show/6947464.Vanessa_Van_Edwards]]>
+        </link>
+        <average_rating>4.30</average_rating>
+        <ratings_count>486</ratings_count>
+        <text_reviews_count>75</text_reviews_count>
+      </author>
+    </authors>
+    <reviews_widget>
+      <![CDATA[
+        <style>
+  #goodreads-widget {
+    font-family: georgia, serif;
+    padding: 18px 0;
+    width:565px;
+  }
+  #goodreads-widget h1 {
+    font-weight:normal;
+    font-size: 16px;
+    border-bottom: 1px solid #BBB596;
+    margin-bottom: 0;
+  }
+  #goodreads-widget a {
+    text-decoration: none;
+    color:#660;
+  }
+  iframe{
+    background-color: #fff;
+  }
+  #goodreads-widget a:hover { text-decoration: underline; }
+  #goodreads-widget a:active {
+    color:#660;
+  }
+  #gr_footer {
+    width: 100%;
+    border-top: 1px solid #BBB596;
+    text-align: right;
+  }
+  #goodreads-widget .gr_branding{
+    color: #382110;
+    font-size: 11px;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+</style><div id="goodreads-widget"><div id="gr_header"><h1><a rel="nofollow" href="https://www.goodreads.com/book/show/31868165-captivate">Captivate Reviews</a></h1></div><iframe id="the_iframe" src="https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=0399564489&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000" width="565" height="400" frameborder="0"></iframe><div id="gr_footer"><a class="gr_branding" target="_blank" rel="nofollow" href="https://www.goodreads.com/book/show/31868165-captivate?utm_medium=api&amp;utm_source=reviews_widget">Reviews from Goodreads.com</a></div></div>
+
+      ]]>
+    </reviews_widget>
+    <popular_shelves>
+      <shelf name="to-read" count="747"/>
+      <shelf name="currently-reading" count="352"/>
+      <shelf name="psychology" count="22"/>
+      <shelf name="non-fiction" count="18"/>
+      <shelf name="business" count="14"/>
+      <shelf name="personal-development" count="13"/>
+      <shelf name="self-help" count="12"/>
+      <shelf name="nonfiction" count="12"/>
+      <shelf name="self-improvement" count="9"/>
+      <shelf name="leadership" count="7"/>
+      <shelf name="audible" count="6"/>
+      <shelf name="giveaways" count="6"/>
+      <shelf name="science" count="5"/>
+      <shelf name="maybe" count="4"/>
+      <shelf name="first-reads" count="4"/>
+      <shelf name="to-read-nonfiction" count="4"/>
+      <shelf name="relationships" count="3"/>
+      <shelf name="kindle" count="3"/>
+      <shelf name="communication" count="3"/>
+      <shelf name="social" count="3"/>
+      <shelf name="downloaded" count="2"/>
+      <shelf name="personal-growth" count="2"/>
+      <shelf name="2017-reading-list" count="2"/>
+      <shelf name="summer-2017" count="2"/>
+      <shelf name="audiobook" count="2"/>
+      <shelf name="favorites" count="2"/>
+      <shelf name="sociology" count="2"/>
+      <shelf name="read-2017" count="2"/>
+      <shelf name="persuasion" count="2"/>
+      <shelf name="career" count="2"/>
+      <shelf name="self-development" count="2"/>
+      <shelf name="influence" count="2"/>
+      <shelf name="owned" count="2"/>
+      <shelf name="wish-list" count="2"/>
+      <shelf name="body-language" count="2"/>
+      <shelf name="home" count="1"/>
+      <shelf name="to-read-marketing" count="1"/>
+      <shelf name="reading-paused" count="1"/>
+      <shelf name="pyschology" count="1"/>
+      <shelf name="ppl" count="1"/>
+      <shelf name="pending" count="1"/>
+      <shelf name="to-read-nonfiction-work-related" count="1"/>
+      <shelf name="growth-to-read" count="1"/>
+      <shelf name="science-of-people-book-club" count="1"/>
+      <shelf name="professional-development" count="1"/>
+      <shelf name="top-to-read-next" count="1"/>
+      <shelf name="to-read-selfdev" count="1"/>
+      <shelf name="behavioural-science" count="1"/>
+      <shelf name="e-books" count="1"/>
+      <shelf name="library" count="1"/>
+      <shelf name="do-lectures-related" count="1"/>
+      <shelf name="plehfles" count="1"/>
+      <shelf name="to-re-read" count="1"/>
+      <shelf name="consulting" count="1"/>
+      <shelf name="booklist-2017" count="1"/>
+      <shelf name="professional" count="1"/>
+      <shelf name="listening-audible" count="1"/>
+      <shelf name="in-overdrive" count="1"/>
+      <shelf name="will-read" count="1"/>
+      <shelf name="audio-book" count="1"/>
+      <shelf name="motivation-self-improvement" count="1"/>
+      <shelf name="to-read-longlist" count="1"/>
+      <shelf name="äänikirjat-palautettavat" count="1"/>
+      <shelf name="tried-didn-t-finish" count="1"/>
+      <shelf name="business-and-economics" count="1"/>
+      <shelf name="next" count="1"/>
+      <shelf name="äänikirjat-vielä-kuuntelematta" count="1"/>
+      <shelf name="äänikirjana-audiblessa" count="1"/>
+      <shelf name="nonficiton" count="1"/>
+      <shelf name="did-not-finish" count="1"/>
+      <shelf name="finished" count="1"/>
+      <shelf name="creative-comms" count="1"/>
+      <shelf name="summer-2017-to-read" count="1"/>
+      <shelf name="firstreads" count="1"/>
+      <shelf name="next-to-read-long-list" count="1"/>
+      <shelf name="be-an-interesting-person" count="1"/>
+      <shelf name="people-skills" count="1"/>
+      <shelf name="to-read-audio-books" count="1"/>
+      <shelf name="improvement" count="1"/>
+      <shelf name="team-leader" count="1"/>
+      <shelf name="to-read-again-it-was-that-good" count="1"/>
+      <shelf name="won-in-giveaway" count="1"/>
+      <shelf name="business-book-club" count="1"/>
+      <shelf name="self" count="1"/>
+      <shelf name="nonfiction-adult" count="1"/>
+      <shelf name="5-stars" count="1"/>
+      <shelf name="boos1" count="1"/>
+      <shelf name="stalled" count="1"/>
+      <shelf name="printed-on-paper" count="1"/>
+      <shelf name="must-reread" count="1"/>
+      <shelf name="negotiation" count="1"/>
+      <shelf name="lisa-v-reviews" count="1"/>
+      <shelf name="kfor" count="1"/>
+      <shelf name="jun2017" count="1"/>
+      <shelf name="how-to" count="1"/>
+      <shelf name="books-read-in-2017" count="1"/>
+      <shelf name="to-read-next" count="1"/>
+      <shelf name="entrepreneurial-books" count="1"/>
+      <shelf name="tbr-psychology" count="1"/>
+      <shelf name="audiobooks" count="1"/>
+    </popular_shelves>
+    <book_links>
+      <book_link>
+        <id>8</id>
+        <name>Libraries</name>
+        <link>https://www.goodreads.com/book_link/follow/8</link>
+      </book_link>
+    </book_links>
+    <buy_links>
+      <buy_link>
+        <id>1</id>
+        <name>Amazon</name>
+        <link>https://www.goodreads.com/book_link/follow/1</link>
+      </buy_link>
+      <buy_link>
+        <id>10</id>
+        <name>Audible</name>
+        <link>https://www.goodreads.com/book_link/follow/10</link>
+      </buy_link>
+      <buy_link>
+        <id>3</id>
+        <name>Barnes &amp; Noble</name>
+        <link>https://www.goodreads.com/book_link/follow/3</link>
+      </buy_link>
+      <buy_link>
+        <id>1027</id>
+        <name>Kobo</name>
+        <link>https://www.goodreads.com/book_link/follow/1027</link>
+      </buy_link>
+      <buy_link>
+        <id>2102</id>
+        <name>Apple iBooks</name>
+        <link>https://www.goodreads.com/book_link/follow/2102</link>
+      </buy_link>
+      <buy_link>
+        <id>8036</id>
+        <name>Google Play</name>
+        <link>https://www.goodreads.com/book_link/follow/8036</link>
+      </buy_link>
+      <buy_link>
+        <id>4</id>
+        <name>Abebooks</name>
+        <link>https://www.goodreads.com/book_link/follow/4</link>
+      </buy_link>
+      <buy_link>
+        <id>882</id>
+        <name>Book Depository</name>
+        <link>https://www.goodreads.com/book_link/follow/882</link>
+      </buy_link>
+      <buy_link>
+        <id>9</id>
+        <name>Indigo</name>
+        <link>https://www.goodreads.com/book_link/follow/9</link>
+      </buy_link>
+      <buy_link>
+        <id>2</id>
+        <name>Half.com</name>
+        <link>https://www.goodreads.com/book_link/follow/2</link>
+      </buy_link>
+      <buy_link>
+        <id>5</id>
+        <name>Alibris</name>
+        <link>https://www.goodreads.com/book_link/follow/5</link>
+      </buy_link>
+      <buy_link>
+        <id>107</id>
+        <name>Better World Books</name>
+        <link>https://www.goodreads.com/book_link/follow/107</link>
+      </buy_link>
+      <buy_link>
+        <id>7</id>
+        <name>IndieBound</name>
+        <link>https://www.goodreads.com/book_link/follow/7</link>
+      </buy_link>
+    </buy_links>
+    <series_works></series_works>
+  </book>
+</GoodreadsResponse>
