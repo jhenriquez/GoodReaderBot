@@ -42,6 +42,7 @@ describe('Goodreads/BookShow', () => {
                                                         .then(book => {
                                                           book.description.indexOf('<b>').should.be.lessThan(0);
                                                           book.description.indexOf('<br />').should.be.lessThan(0);
+                                                          book.description.indexOf('<i>').should.be.lessThan(0);
                                                         });
     });
   });
