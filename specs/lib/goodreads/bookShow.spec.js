@@ -32,6 +32,9 @@ describe('Goodreads/BookShow', () => {
                                                         .then(book => {
                                                             book.id.should.eql('50');
                                                             book.title.should.eql('Hatchet (Brian\'s Saga, #1)');
+                                                            book.publisher.should.eql('Atheneum Books for Young Readers: Richard Jackson Books')
+                                                            book.publicationYear.should.eql('');
+                                                            book.originalPublicationYear.should.eql('1986');
                                                             book.should.have.a.property('description');
                                                         });
     });
