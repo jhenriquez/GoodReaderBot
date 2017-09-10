@@ -21,10 +21,8 @@ bot.on('inline_query', (ctx) => {
 });
 
 bot.on('callback_query', (ctx) => {
-    const createMessageUpdate = (b) => `<a href="${b.thumbUrl}" target="_black">&#8203;</a><b>${b.title} (${b.rating})</b>\nBy <a href="https://www.goodreads.com/author/show/${b.author.id}">${b.author.name}</a>\n\n<i>${ b.description }</i>\n\nRead more about this book on <a href="https://www.goodreads.com/book/show/${b.id}">Goodreads</a>.`;
-
     new BookShow(process.env.GOODREADS_API_KEY).execute(ctx.update.callback_query.data)
-                                               .then((book) => { ctx.editMessageText(createMessageUpdate(book), { parse_mode: 'HTML' }); })
+                                               .then((book) => { ctx.editMessageText(book.renderHTMLMessage(), { parse_mode: 'HTML' }); })
                                                .catch(console.log.bind(console));
 });
 

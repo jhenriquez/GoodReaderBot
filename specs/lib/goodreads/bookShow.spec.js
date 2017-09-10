@@ -41,7 +41,7 @@ describe('Goodreads/BookShow', () => {
                                                         });
     });
 
-    it('It parses simple HTML tags to plain text.', () => {
+    it('It parses simple HTML tags to plain text from the description.', () => {
       mockGoodreadsResponseWith('bookShow_31868165.xml');
       return new BookShow(process.env.GOODREADS_API_KEY).execute(50)
                                                         .then(book => {
