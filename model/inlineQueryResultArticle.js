@@ -17,10 +17,10 @@ function InlineQueryResultArticle (book) {
   this.id = validated.value.id;
   this.title = validated.value.title;
   this.description = validated.value.author.name;
-  this.thumb_url = validated.value.image_url;
+  this.thumbUrl = validated.value.image_url;
 
   this.input_message_content = {
-    message_text: `<a href="${this.thumb_url}" target="_black">&#8203;</a><b>${this.title}</b>\nBy <a href="https://www.goodreads.com/author/show/${validated.value.author.id}">${this.description}</a>\n\nRead more about this book on <a href="https://www.goodreads.com/book/show/${this.id}">Goodreads</a>.`,
+    message_text: `<a href="${this.thumbUrl}" target="_black">&#8203;</a><b>${this.title}</b>\nBy <a href="https://www.goodreads.com/author/show/${validated.value.author.id}">${this.description}</a>\n\nRead more about this book on <a href="https://www.goodreads.com/book/show/${this.id}">Goodreads</a>.`,
     parse_mode: 'HTML'
   };
 

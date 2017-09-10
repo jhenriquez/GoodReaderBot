@@ -1,7 +1,8 @@
-const chai     = require('chai');
-const nock     = require('nock');
-const BookShow = require('../../../lib/goodreads/bookShow');
-const Helpers  = require('../../helpers');
+const chai        = require('chai');
+const nock        = require('nock');
+const BookShow    = require('../../../lib/goodreads/bookShow');
+const Helpers     = require('../../helpers');
+const BookMessage = require('../../../model/bookMessage');
 
 function mockGoodreadsResponseWith (fixture) {
   nock('https://www.goodreads.com:443', {"encodedQueryParams":true})
@@ -26,10 +27,11 @@ describe('Goodreads/BookShow', () => {
                                                         .catch(err => err.should.match(/ID/i));
     });
 
-    it('resolves to GoodReadsBook object.', () => {
+    it('resolves to a BookMessage object.', () => {
       mockGoodreadsResponseWith('bookShow_50.xml');
       return new BookShow(process.env.GOODREADS_API_KEY).execute(50)
                                                         .then(book => {
+                                                            book.should.be.instanceOf(BookMessage);
                                                             book.id.should.eql('50');
                                                             book.title.should.eql('Hatchet (Brian\'s Saga, #1)');
                                                             book.publisher.should.eql('Atheneum Books for Young Readers: Richard Jackson Books')
